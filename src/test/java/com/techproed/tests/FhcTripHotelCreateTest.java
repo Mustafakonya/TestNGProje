@@ -22,6 +22,11 @@ public class FhcTripHotelCreateTest extends TestBase {
         fhcTripHotelCreatePage.telefonKutusu.sendKeys("1223454534");
         Select select = new Select(fhcTripHotelCreatePage.selectKutusu);
         select.selectByIndex(2);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         fhcTripHotelCreatePage.saveButonu.click();
     }
 }
