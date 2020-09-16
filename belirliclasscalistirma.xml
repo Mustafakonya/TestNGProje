@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite - fhctrip.com">
+    <test name="Test - smoketests paket testleri">
+
+        <classes>
+            <class name="com.techproed.tests.Ornek_WebTable"></class>
+            <class name="com.techproed.tests.FhcTripLoginTest"></class>
+            <class name="com.techproed.tests.FhcTripHotelCreateTest"></class>
+            <class name="com.techproed.tests.JSAlertTest"></class>
+        </classes>
+
+
+
+    </test>
+</suite>
