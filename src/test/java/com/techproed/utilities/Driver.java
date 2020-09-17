@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 public class Driver {
     // Eğer bir class'tan NESNE ÜRETİLMESİNİ İSTEMİYORSANIZ
     // constructor'ı private yapabilirsiniz (Singleton Class)
-    private Driver(){ }
+    public Driver(){ }
     // WebDriver nesnemizi, static olarak oluşturduk, çünkü program başlar başlamaz
     // hafızada yer almasını istiyoruz.
     static WebDriver driver;
